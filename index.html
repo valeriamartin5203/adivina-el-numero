@@ -8,9 +8,9 @@
 
 <body>
 
-    <h1>🎯 ADIVINA EL NÚMERO</h1>
+    <h1 class = "colorido">ADIVINA EL NÚMERO</h1>
     <p>Estoy pensando un número del 1 al 100</p>
-    <h2 class="colorido">¡INTÉNTALO!</h2>
+    <h2>¡INTÉNTALO!</h2>
 
     <input type="number" id="numeroUsuario" placeholder="Escribe un número">
     <br><br>
@@ -18,6 +18,12 @@
 
     <p id="mensaje"></p>
     <p id="intentos"></p>
+
+    <button id="reiniciar" onclick="reiniciarJuego()" style="display:none;">
+     Reiniciar juego
+     </button>
+
+
 
 
     <script src="script.js"></script>
