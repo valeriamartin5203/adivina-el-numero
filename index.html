@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>adivina el numero</title>
+    <title>Adivina el número</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>ADIVINA EL NÚMERO</h1>
-    <p>Estoy pensando un numero del 1 al 100. ¿podras adivinarlo?</p>
-    <h2 class="colorido">COMENZEMOS!!!!!</h2>
 
-    <input type="text" placeholder="Escribe el numero aqui">
-    <button>Adivinar</button>
-    <p class="mensaje"></p>
+    <h1>🎯 ADIVINA EL NÚMERO</h1>
+    <p>Estoy pensando un número del 1 al 100</p>
+    <h2 class="colorido">¡INTÉNTALO!</h2>
+
+    <input type="number" id="numeroUsuario" placeholder="Escribe un número">
+    <br><br>
+    <button onclick="adivinar()">Adivinar</button>
+
+    <p id="mensaje"></p>
+    <p id="intentos"></p>
+
+
     <script src="script.js"></script>
-
-    
 </body>
 
 
-    
 </html>
