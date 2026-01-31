@@ -11,7 +11,7 @@ function adivinar() {
     let botonreinicio = document.getElementById("reiniciar");
 
     if (numero < 1 || numero > 100) {
-        mensaje.innerText = "❌ El número debe estar entre 1 y 100";
+        mensaje.innerText = " El número debe estar entre 1 y 100";
         return;
     }
 
@@ -19,7 +19,7 @@ function adivinar() {
     {
 
         if (isNaN(numero)) {
-            mensaje.innerText = "❌ Escribe un número válido";
+            mensaje.innerText = "Escribe un número válido";
             return;
         }
 
@@ -30,24 +30,24 @@ function adivinar() {
 
         if (numero === numeroSecreto) 
         {
-            mensaje.innerText = "🎉 ¡Correcto! Adivinaste en " + intentos + " intentos";
+            mensaje.innerText = "¡Correcto! Adivinaste en " + intentos + " intentos";
             botonreinicio.style.display = "block";
         } 
 
         else if (numero > numeroSecreto)
         {
-            mensaje.innerText = "📉 Muy alto";
+            mensaje.innerText = "el numero es muy alto ";
         } 
         else 
         {
-            mensaje.innerText = "📈 Muy bajo";
+            mensaje.innerText = "el numero es muy bajo";
         }
     
     }
 
     else 
     {
-        mensaje.innerText = "❌ Lo siento, has excedido el número máximo de intentos. El número era " + numeroSecreto;
+        mensaje.innerText = "Se acabaron los intentos. El número era " + numeroSecreto;
         botonreinicio.style.display = "block";
     }
 
