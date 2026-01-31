@@ -1,11 +1,15 @@
-let randomNumber = Math.floor(Math.random() * 100) + 1;
+let numeroSecreto = Math.floor(Math.random() * 100) + 1;
 
-const guesses = document.querySelector(".guesses");
-const lastResult = document.querySelector(".lastResult");
-const lowOrHi = document.querySelector(".lowOrHi");
+function adivinar() {
+    let numero = parseInt(document.getElementById("numeroUsuario").value);
+    let mensaje = document.getElementById("mensaje");
 
-const guessSubmit = document.querySelector(".guessSubmit");
-const guessField = document.querySelector(".guessField");
-
-let guessCount = 1;
-let resetButton;
+    if (numero === numeroSecreto) {
+        mensaje.innerText = "🎉 ¡Correcto! Adivinaste el número";
+    } else if (numero > numeroSecreto) {
+        mensaje.innerText = "📉 Muy alto";
+    } else {
+        mensaje.innerText = "📈 Muy bajo";
+    }
+}
+document.querySelector("button").addEventListener("click", adivinar);
