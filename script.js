@@ -37,11 +37,12 @@ function adivinar() {
 
         else if (numero > numeroSecreto)
         {
-            mensaje.innerText = "el numero es muy alto ";
+            mensaje.innerText = "¡Incorrecto! Intenta un número más bajo.";
         } 
         else 
         {
-            mensaje.innerText = "el numero es muy bajo";
+            mensaje.innerText = "¡Incorrecto! Intenta un número más alto.";
+
         }
     
     }
