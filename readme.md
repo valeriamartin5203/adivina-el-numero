@@ -1,6 +1,3 @@
-
-# hola
-=======
 # Adivina el numero
 
 ## Descripcion
@@ -38,6 +35,3 @@ como se puede obsevar el proyecto usa tres documentos
 
 -script: es quien se encarga de como funciona cada cosa.
  
-
-
->>>>>>> e2e5c83d3e08a47f928e3e09f99ae11b88a89c08
