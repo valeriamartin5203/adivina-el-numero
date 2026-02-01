@@ -64,6 +64,8 @@ function reiniciarJuego() {
     document.getElementById("intentos").innerText = "";
     document.getElementById("numeroUsuario").value = "";
     document.getElementById("reiniciar").style.display = "none";
+    document.getElementById("gif").style.display = "none";
+
 }
 
 
