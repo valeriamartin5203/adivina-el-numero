@@ -7,20 +7,29 @@ En este proyectos se recrea el juevo adivina el numero, el codigo genera un nume
 Las caracteristicas de este juego es:
 
 -el jugador solo tiene 10 intentos
+
 -el numero es generado al azar
+
 -se le informa al jugador si su numero es mas alto o bajo
+
 -al momento de ganar o perder puede jugar de nuevo
+
 
 ## Tecnologias usadas
 para este proyecto usamos lo siguiente:
 
 -html
+
 -java
+
 -css
 
 ## Documentos 
 como se puede obsevar el proyecto usa tres documentos
 
 -index: es quien se encarga de como se vera la pagina.
+
 -styles: este se encarga del estilo del documento.
+
 -script: es quien se encarga de como funciona cada cosa.
+
