@@ -32,6 +32,7 @@ function adivinar() {
         {
             mensaje.innerText = "¡Correcto! Adivinaste en " + intentos + " intentos";
             botonreinicio.style.display = "block";
+            document.getElementById("gif").style.display = "block";
         } 
 
         else if (numero > numeroSecreto)
