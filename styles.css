@@ -1,11 +1,9 @@
 body
 {
-    background-color: #6fc7fa;
+    color: #000000;
+    background-color: #dff8f7;
     text-align: center;
     margin-bottom: 20px;
-    background-image: url("fondo2.jfif");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 h1 {
